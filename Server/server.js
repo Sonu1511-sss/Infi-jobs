@@ -21,6 +21,7 @@ app.use(cors()); // Allow karo Cross-Origin requests
 // Routes set karo
 app.use('/api/auth', authRoutes);
 
+
 // Static files serve karo
 app.use(express.static(path.join(_dirname, 'client/dist')));
 
