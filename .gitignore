@@ -7,22 +7,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+node_modules
+.env
 
-# node modules
-client/node_modules/
-server/node_modules/
-
-# Environment veraible 
-client/.env
-client/.env.local
-client/.env.*.local
-server/.env
-server/.env.local
-server/.env.*.local
-
-# build output
-client/dist/
-server/dist/
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
